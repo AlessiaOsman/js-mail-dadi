@@ -14,4 +14,12 @@ console.log(button);
 textNumber = "E' uscito il numero "
 textWinner = "Ha vinto "
 
+button.addEventListener ('click', function(){
+    
+    const computerNumber = Math.floor(Math.random()*6 + 1)
+    console.log(computerNumber)
 
+    const userNumber = Math.floor(Math.random()*6 + 1)
+    console.log(userNumber)
+
+})
